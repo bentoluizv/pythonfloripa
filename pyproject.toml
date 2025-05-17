@@ -1,0 +1,48 @@
+[project]
+name = "pythonfloripa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.15.2",
+    "fastapi[standard]>=0.115.12",
+    "pydantic-settings>=2.9.1",
+    "sqlalchemy>=2.0.41",
+]
+
+[dependency-groups]
+dev = [
+    "ignr>=2.2",
+    "pytest>=8.3.5",
+ "pytest-cov>=6.1.1",
+ "ruff>=0.11.10",
+ "taskipy>=1.14.1",
+]
+
+[tool.ruff]
+line-length = 120
+exclude = ["migrations"]
+
+
+[tool.ruff.lint]
+preview = true
+ignore = ['PLR6301']
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = '-p no:warnings'
+
+[tool.taskipy.tasks]
+lint = 'ruff check . && ruff check . --diff'
+format = 'ruff check . --fix && ruff format .'
+dev = 'fastapi dev src/app.py'
+pre_test = 'task lint'
+test = 'pytest -s -x --cov=src'
+post_test = 'coverage html'
+run = 'fastapi run src/app.py'
