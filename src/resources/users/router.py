@@ -85,6 +85,7 @@ async def get_user(
 ):
     """Retorna os dados de um usuário pelo seu ID."""
     user = await repository.get_by_id(user_id)
+
     if not user:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
@@ -146,6 +147,7 @@ async def update_user(
             )
 
     updated_user = await repository.update(user_id, user_data)
+
     if not updated_user:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
