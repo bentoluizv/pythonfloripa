@@ -1,3 +1,5 @@
+from typing import AsyncGenerator
+
 from sqlalchemy.ext.asyncio import (
     AsyncSession,
     async_sessionmaker,
@@ -26,16 +28,9 @@ class Base(DeclarativeBase):
     pass
 
 
-async def get_async_session():
+async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
     async with async_session_maker() as session:
-        try:
-            yield session
-            await session.commit()
-        except Exception:
-            await session.rollback()
-            raise
-        finally:
-            await session.close()
+        yield session
 
 
 async def init_db():
