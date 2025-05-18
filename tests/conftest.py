@@ -87,8 +87,10 @@ async def metadata_test_engine():
 @pytest.fixture
 async def session(engine):
     """Create a test database session with automatic rollback."""
+    async_engine = await anext(engine)
+
     async_session_maker = async_sessionmaker(
-        engine, class_=AsyncSession, expire_on_commit=False, autocommit=False, autoflush=False
+        async_engine, class_=AsyncSession, expire_on_commit=False, autocommit=False, autoflush=False
     )
 
     async with async_session_maker() as session:
@@ -99,9 +101,3 @@ async def session(engine):
             raise e
         finally:
             await session.close()
-
-
-@pytest.fixture
-async def async_session_maker(engine):
-    """Create a session factory for testing concurrent sessions."""
-    return async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False, autocommit=False, autoflush=False)

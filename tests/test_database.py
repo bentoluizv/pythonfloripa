@@ -44,3 +44,11 @@ async def test_database_engine(metadata_test_engine):
         )
         tables_after_cleanup = [row[0] for row in result]
         assert len(tables_after_cleanup) == 0, 'Tables were not properly cleaned up'
+
+
+@pytest.mark.asyncio
+async def test_database_session(session):
+    session = await anext(session)
+    assert session is not None
+    async with session.begin() as conn:
+        assert conn.is_active
