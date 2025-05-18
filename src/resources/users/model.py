@@ -4,7 +4,7 @@ from typing import Optional
 from sqlalchemy import Boolean, DateTime, ForeignKey, String, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from src.ext.database.db import Base
+from src.resources import Base
 from src.utils import generate_ulid
 
 

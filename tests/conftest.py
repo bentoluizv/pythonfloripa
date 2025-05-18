@@ -8,7 +8,8 @@ from sqlalchemy.ext.asyncio import (
 from testcontainers.postgres import PostgresContainer
 
 from src.app import app
-from src.ext.database.db import Base, get_async_session
+from src.ext.database.db import get_async_session
+from src.resources import Base
 from src.resources.users.model import User
 
 # Test database configuration

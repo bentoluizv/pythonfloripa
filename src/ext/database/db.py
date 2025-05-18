@@ -5,18 +5,15 @@ from sqlalchemy.ext.asyncio import (
     async_sessionmaker,
     create_async_engine,
 )
-from sqlalchemy.orm import DeclarativeBase
 
 from src.settings import get_settings
 
 settings = get_settings()
-
 engine = create_async_engine(
-    settings.database_url,
+    settings.DATABASE_URL,
     echo=True,
     future=True,
 )
-
 async_session_maker = async_sessionmaker(
     engine,
     class_=AsyncSession,
@@ -24,15 +21,6 @@ async_session_maker = async_sessionmaker(
 )
 
 
-class Base(DeclarativeBase):
-    pass
-
-
 async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
     async with async_session_maker() as session:
         yield session
-
-
-async def init_db():
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
