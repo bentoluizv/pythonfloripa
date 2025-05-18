@@ -1,7 +1,10 @@
 from datetime import datetime
-from typing import Annotated, Optional
+from typing import Annotated, List, Optional
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, constr, field_validator
+
+from src.resources.shared.schemas import BasePaginatedResponse
+from src.utils import validade_password
 
 # Custom validators
 PhoneNumber = Annotated[str, constr(pattern=r'^\+[1-9]\d{1,14}$')]
@@ -45,15 +48,11 @@ class UserCreate(UserBase):
 
     @field_validator('password')
     @classmethod
-    def validate_password(cls, v: str) -> str:
+    def validate_password(cls, v: Optional[str]) -> Optional[str]:
         """Validate password complexity."""
-        if not any(c.isalpha() for c in v):
-            raise ValueError('Password must contain at least one letter')
-        if not any(c.isdigit() for c in v):
-            raise ValueError('Password must contain at least one number')
-        if not all(c.isalnum() or c in '@$!%*#?&' for c in v):
-            raise ValueError('Password can only contain letters, numbers, and @$!%*#?&')
-        return v
+        if v is None:
+            return v
+        return validade_password(v)
 
 
 class UserUpdate(BaseModel):
@@ -71,13 +70,7 @@ class UserUpdate(BaseModel):
         """Validate password complexity."""
         if v is None:
             return v
-        if not any(c.isalpha() for c in v):
-            raise ValueError('Password must contain at least one letter')
-        if not any(c.isdigit() for c in v):
-            raise ValueError('Password must contain at least one number')
-        if not all(c.isalnum() or c in '@$!%*#?&' for c in v):
-            raise ValueError('Password can only contain letters, numbers, and @$!%*#?&')
-        return v
+        return validade_password(v)
 
 
 class UserInDB(UserBase):
@@ -132,18 +125,7 @@ class UserPublic(BaseModel):
     profile: Optional[UserProfile] = None
 
 
-class PaginationParams(BaseModel):
-    """Schema for pagination parameters."""
+class UsersPaginatedResponse(BasePaginatedResponse):
+    """Schema for paginated response of users."""
 
-    page: int = Field(1, ge=1)
-    per_page: int = Field(10, ge=1, le=100)
-
-
-class PaginatedResponse(BaseModel):
-    """Schema for paginated response."""
-
-    total: int
-    page: int
-    per_page: int
-    total_pages: int
-    items: list[UserPublic]
+    items: List[UserPublic]

@@ -6,12 +6,12 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.ext.database.db import get_async_session
+from src.resources.shared.schemas import PaginationParams
 from src.resources.users.model import User, UserProfile
 from src.resources.users.schema import (
-    PaginatedResponse,
-    PaginationParams,
     UserCreate,
     UserPublic,
+    UsersPaginatedResponse,
     UserUpdate,
 )
 
@@ -109,7 +109,7 @@ class UserRepository:
         await self.session.commit()
         return user
 
-    async def list_users(self, params: PaginationParams) -> PaginatedResponse:
+    async def list_users(self, params: PaginationParams) -> UsersPaginatedResponse:
         """List users with pagination."""
         # Get total count efficiently
         count_query = select(func.count()).select_from(User)
@@ -126,7 +126,7 @@ class UserRepository:
         # Convert to public schemas
         items = [UserPublic.model_validate(user) for user in users]
 
-        return PaginatedResponse(
+        return UsersPaginatedResponse(
             total=total,
             page=params.page,
             per_page=params.per_page,

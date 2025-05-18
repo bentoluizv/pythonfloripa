@@ -3,8 +3,9 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, status
 
+from src.resources.shared.schemas import PaginationParams
 from src.resources.users.repository import UserRepository, get_user_repository
-from src.resources.users.schema import PaginatedResponse, PaginationParams, UserCreate, UserPublic, UserUpdate
+from src.resources.users.schema import UserCreate, UserPublic, UsersPaginatedResponse, UserUpdate
 
 router = APIRouter(
     prefix='/users',
@@ -180,7 +181,7 @@ async def delete_user(
 
 @router.get(
     '',
-    response_model=PaginatedResponse,
+    response_model=UsersPaginatedResponse,
     summary='Listar usuários',
     description="""
     Retorna uma lista paginada de usuários.
@@ -200,6 +201,6 @@ async def delete_user(
 async def list_users(
     params: Annotated[PaginationParams, Depends()],
     repository: UserRepositoryDep,
-) -> PaginatedResponse:
+) -> UsersPaginatedResponse:
     """Retorna uma lista paginada de usuários."""
     return await repository.list_users(params)
