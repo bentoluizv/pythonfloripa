@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+
 import pytest
 from httpx import ASGITransport, AsyncClient
 from sqlalchemy.ext.asyncio import (
@@ -10,6 +12,7 @@ from testcontainers.postgres import PostgresContainer
 from src.app import app
 from src.ext.database.db import get_async_session
 from src.resources import Base
+from src.resources.events.model import Event
 from src.resources.users.model import User
 
 # Test database configuration
@@ -85,3 +88,20 @@ async def create_user(session):
     session.add(user)
     await session.commit()
     return user
+
+
+@pytest.fixture
+async def create_event(session):
+    event_data = {
+        'edition': 1,
+        'title': 'Event 1',
+        'description': 'Description 1',
+        'start_date': datetime(2021, 1, 1, 7, 0, 0, tzinfo=timezone.utc),
+        'end_date': datetime(2021, 1, 1, 9, 45, 0, tzinfo=timezone.utc),
+        'location': 'Location 1',
+        'image_url': 'https://example.com/image.jpg',
+    }
+    event = Event(**event_data)
+    session.add(event)
+    await session.commit()
+    return event
