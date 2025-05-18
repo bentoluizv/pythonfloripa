@@ -1,9 +1,13 @@
+from __future__ import annotations
+
 from datetime import datetime
+from typing import List
 
 from sqlalchemy import Boolean, DateTime, Integer, String, Text, func
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from src.resources import Base
+from src.resources.talks.model import Talk
 from src.utils import generate_ulid
 
 
@@ -28,6 +32,7 @@ class Event(Base):
     is_active: Mapped[bool] = mapped_column(Boolean, nullable=False, default=True)
     is_published: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
 
+    talks: Mapped[List[Talk]] = relationship(back_populates='event', lazy='selectin')  # type: ignore  # noqa: F821
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
         server_default=func.now(),

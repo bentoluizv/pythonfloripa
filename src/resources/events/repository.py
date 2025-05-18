@@ -67,6 +67,9 @@ class EventRepository:
         if event is None:
             return None
 
+        if event.talks:
+            raise Exception('Event has talks')
+
         await self.session.delete(event)
         await self.session.commit()
 

@@ -1,9 +1,12 @@
+from __future__ import annotations
+
 from datetime import datetime
 from typing import List, Optional
 
 from pydantic import BaseModel, ConfigDict
 
 from src.resources.shared.schemas import BasePaginatedResponse
+from src.resources.talks.schema import PublicTalk, TalkDB
 
 
 class EventDB(BaseModel):
@@ -19,10 +22,22 @@ class EventDB(BaseModel):
     image_url: str
     is_active: bool
     is_published: bool
+    talks: List['TalkDB']
     created_at: datetime
     updated_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
+
+class PublicEvent(BaseModel):
+    id: str
+    edition: int
+    title: str
+    start_date: datetime
+    end_date: datetime
+    location: str
+    image_url: str
+    talks: List['PublicTalk']
 
 
 class EventCreate(BaseModel):
@@ -51,4 +66,4 @@ class EventUpdate(BaseModel):
 
 
 class EventsPaginatedResponse(BasePaginatedResponse):
-    items: List[EventDB]
+    items: List['EventDB']
