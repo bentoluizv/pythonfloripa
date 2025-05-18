@@ -116,7 +116,7 @@ async def update_user(
     user_id: str,
     user_data: UserUpdate,
     repository: UserRepositoryDep,
-) -> UserPublic:
+):
     """Atualiza os dados de um usuário existente."""
     # Check if user exists
     user = await repository.get_by_id(user_id)
