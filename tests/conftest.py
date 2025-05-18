@@ -27,7 +27,7 @@ def client():
 
 
 @pytest.fixture(scope='session')
-async def engine() -> AsyncGenerator[AsyncEngine, None]:
+async def engine():
     """Create a test database engine with proper cleanup."""
     container = PostgresContainer(
         POSTGRES_IMAGE, username=POSTGRES_USER, password=POSTGRES_PASSWORD, dbname=POSTGRES_DB, driver='asyncpg'
@@ -60,7 +60,7 @@ async def engine() -> AsyncGenerator[AsyncEngine, None]:
 
 
 @pytest.fixture
-async def metadata_test_engine() -> AsyncGenerator[AsyncEngine, None]:
+async def metadata_test_engine():
     """Create a separate test database engine for metadata testing."""
     container = PostgresContainer(
         POSTGRES_IMAGE, username=POSTGRES_USER, password=POSTGRES_PASSWORD, dbname=METADATA_TEST_DB, driver='asyncpg'
@@ -88,7 +88,7 @@ async def metadata_test_engine() -> AsyncGenerator[AsyncEngine, None]:
 
 
 @pytest.fixture
-async def session(engine: AsyncEngine) -> AsyncGenerator[AsyncSession, None]:
+async def session(engine):
     """Create a test database session with automatic rollback."""
     async_session_maker = async_sessionmaker(
         engine, class_=AsyncSession, expire_on_commit=False, autocommit=False, autoflush=False
@@ -101,10 +101,10 @@ async def session(engine: AsyncEngine) -> AsyncGenerator[AsyncSession, None]:
             await session.rollback()
             raise e
         finally:
-            await session.rollback()
+            await session.close()
 
 
 @pytest.fixture
-async def async_session_maker(engine: AsyncEngine) -> async_sessionmaker:
+async def async_session_maker(engine):
     """Create a session factory for testing concurrent sessions."""
     return async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False, autocommit=False, autoflush=False)
