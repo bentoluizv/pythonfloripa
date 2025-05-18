@@ -1,5 +1,3 @@
-from typing import AsyncGenerator
-
 from sqlalchemy.ext.asyncio import (
     AsyncSession,
     async_sessionmaker,
@@ -28,7 +26,7 @@ class Base(DeclarativeBase):
     pass
 
 
-async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
+async def get_async_session():
     async with async_session_maker() as session:
         try:
             yield session
@@ -40,6 +38,6 @@ async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
             await session.close()
 
 
-async def init_db() -> None:
+async def init_db():
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
