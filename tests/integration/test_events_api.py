@@ -18,6 +18,7 @@ async def test_create_event(client):
 
     assert response.status_code == HTTPStatus.CREATED
     assert response.json()['title'] == 'Event 1'
+    assert response.json()['talks'] == []
 
 
 @pytest.mark.anyio
