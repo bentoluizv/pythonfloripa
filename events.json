@@ -1,0 +1,152 @@
+[
+  {
+    "data": "quarta-feira, 21 de maio",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "R$ 25,00",
+    "titulo": "SDN Talks",
+    "local": "RD Station - Saco Grande - Florianópolis",
+    "descricao": "Venha conversar sobre design sistêmico em um encontro presencial entre profissionais apaixonados por design de serviços e transformação.",
+    "tags": [
+      "Frontend Development",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 22 de maio",
+    "horario": "13:00",
+    "formato": "Hibrido",
+    "preco": "Gratuito",
+    "titulo": "Inclu_Tech",
+    "local": "FIESC - Itacorubi - Florianópolis",
+    "descricao": "A FIESC convida para o evento Inclu_Tech, presencial e online/metaverso. Evento que conecta pessoas com deficiência, indústrias, instituições, poder público e a sociedade, compartilhando ações, experiências e tecnologias na construção de um mundo inclusivo.",
+    "tags": [
+      "Artificial Intelligence",
+      "Business Strategy"
+    ]
+  },
+  {
+    "data": "sábado, 24 de maio",
+    "horario": "14:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "PyLadies Floripa Meetup – Edição Maio 2025",
+    "local": "Impact Hub Floripa Bewiki - Centro - Florianópolis",
+    "descricao": "Encontro para mulheres em tecnologia com talks, conexões e vivências reais.\nEvento gratuito promovido pela PyLadies Floripa no dia 24/05, às 14h, no Impact Hub – Bewiki.",
+    "tags": [
+      "Data Visualization",
+      "Open Source",
+      "Product Management",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 29 de maio",
+    "horario": "08:00",
+    "formato": "Hibrido",
+    "preco": "R$ 1.297,00",
+    "titulo": "AI Summit Brasil 2025 – Florianópolis",
+    "local": "Passeio Sapiens - Canasvieiras - Florianópolis",
+    "descricao": "O AI Summit Brasil 2025, idealizado pelo Instituto Valor, chega a Florianópolis como um dos principais capítulos do maior circuito nacional sobre Inteligência Artificial, reunindo especialistas e líderes para moldar, de forma ética e inovadora, o futuro da tecnologia.",
+    "tags": [
+      "Artificial Intelligence",
+      "Business Strategy",
+      "Privacy & Data Protection"
+    ]
+  },
+  {
+    "data": "sábado, 31 de maio",
+    "horario": "09:01",
+    "formato": "Hibrido",
+    "preco": "Gratuito",
+    "titulo": "Cumbuca Dev Floripa",
+    "local": "SEBRAE Florianópolis - João Paulo - Florianópolis",
+    "descricao": "A Cumbuca Dev desembarca em Florianópolis para seu primeiro evento presencial — um encontro feito para celebrar nossa trajetória com quem caminha ao nosso lado. Nesta manhã especial, vamos lançar oficialmente o curso GitHub Essentials, reunir pessoas da comunidade tech e criar espaços reais de troca e aprendizado colaborativo.",
+    "tags": [
+      "Backend Development",
+      "CI/CD (Continuous Integration/Delivery)",
+      "DevOps",
+      "Full Stack",
+      "Open Source"
+    ]
+  },
+  {
+    "data": "sábado, 31 de maio",
+    "horario": "13:29",
+    "formato": "Hibrido",
+    "preco": "Gratuito",
+    "titulo": "86º Python Floripa ➞ SEBRAE",
+    "local": "SEBRAE - João Paulo - Florianópolis",
+    "descricao": "Junte-se à comunidade Python Floripa no 86º Meetup, desta vez no SEBRAE/SC, em parceria com a IxDA Florianópolis! Um encontro que conecta tecnologia e design com talks inspiradoras, networking de qualidade, coffee break e painéis interativos. As vagas são limitadas — garanta a sua inscrição e venha trocar ideias, aprender e fazer parte da comunidade que transforma o ecossistema tech de Floripa! 🚀",
+    "tags": [
+      "API Development",
+      "Data Engineering",
+      "Machine Learning",
+      "Software Engineering",
+      "UX/UI Design"
+    ]
+  },
+  {
+    "data": "terça-feira, 03 de junho",
+    "horario": "18:15",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
+    "local": "Neoway - Itacorubi - Florianópolis",
+    "descricao": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
+    "tags": [
+      "API Development",
+      "Backend Development",
+      "Big Data",
+      "DevOps",
+      "Full Stack"
+    ]
+  },
+  {
+    "data": "quarta-feira, 11 de junho",
+    "horario": "09:00",
+    "formato": "Presencial",
+    "preco": "R$ 1.045,00",
+    "titulo": "18ª TDC Floripa",
+    "local": "CentroSul - Centro - Florianópolis",
+    "descricao": "A décima oitava edição do TDC Florianópolis traz três dias com diversas trilhas de palestras e painéis de nível intermediário e avançado, focados em alavancar a sua carreira e acelerar a adoção de tecnologias emergentes.",
+    "tags": [
+      "Artificial Intelligence",
+      "Backend Development",
+      "Data Science",
+      "DevOps",
+      "Full Stack"
+    ]
+  },
+  {
+    "data": "quarta-feira, 25 de junho",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "cTENcf Santa Catarina: 10 Anos de Cloud Native",
+    "local": "Neoway - Itacorubi - Florianópolis",
+    "descricao": "O Cloud Native Community Group de Santa Catarina convida você para o cTENcf Santa Catarina, nossa comemoração regional pelos 10 anos da Cloud Native Computing Foundation (CNCF)!",
+    "tags": [
+      "Cloud Computing",
+      "DevOps",
+      "Kubernetes & Docker",
+      "Microservices",
+      "Open Source"
+    ]
+  },
+  {
+    "data": "quinta-feira, 26 de junho",
+    "horario": "10:00",
+    "formato": "Presencial",
+    "preco": "R$ 239,00",
+    "titulo": "Security Tech Day 2025",
+    "local": "CIA Passeio Sapiens - Canasvieiras - Florianópolis",
+    "descricao": "O Security Tech Day 2025 chega à sua 4ª edição reunindo especialistas e líderes para debater estratégias inovadoras de proteção ciberfísica e apresentar soluções tecnológicas que fortalecem a resiliência de empresas e da sociedade frente a ameaças integradas.",
+    "tags": [
+      "Cybersecurity",
+      "Privacy & Data Protection"
+    ]
+  }
+]
