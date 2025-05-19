@@ -16,7 +16,6 @@ class TalkDB(BaseModel):
     start_time: datetime
     end_time: datetime
     event_id: str
-    event: 'EventDB'  # type: ignore  # noqa: F821
     created_at: datetime
     updated_at: datetime
 
