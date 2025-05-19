@@ -13,6 +13,7 @@ from src.app import app
 from src.ext.database.db import get_async_session
 from src.resources import Base
 from src.resources.events.model import Event
+from src.resources.talks.model import Talk
 from src.resources.users.model import User
 
 # Test database configuration
@@ -104,5 +105,22 @@ async def create_event(session):
     }
     event = Event(**event_data)
     session.add(event)
+
     await session.commit()
     return event
+
+
+@pytest.fixture
+async def create_talk(session, create_event):
+    talk_data = {
+        'title': 'Talk 1',
+        'description': 'Description 1',
+        'speaker': 'Speaker 1',
+        'start_time': datetime(2021, 1, 1, 7, 0, 0, tzinfo=timezone.utc),
+        'end_time': datetime(2021, 1, 1, 9, 45, 0, tzinfo=timezone.utc),
+        'event_id': create_event.id,
+    }
+    talk = Talk(**talk_data)
+    session.add(talk)
+    await session.commit()
+    return talk
