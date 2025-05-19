@@ -10,7 +10,7 @@ from src.settings import get_settings
 
 settings = get_settings()
 engine = create_async_engine(
-    settings.DATABASE_URL,
+    settings.database_url(),
     echo=True,
     future=True,
 )
