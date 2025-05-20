@@ -19,8 +19,6 @@ class Talk(Base):
     )
     title: Mapped[str] = mapped_column(String(255), nullable=False)
     description: Mapped[str] = mapped_column(String(500), nullable=False)
-    speaker: Mapped[str] = mapped_column(String(255), nullable=False)
-
     start_time: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
     end_time: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
 
@@ -30,7 +28,12 @@ class Talk(Base):
         nullable=False,
     )
     event: Mapped['Event'] = relationship(back_populates='talks', lazy='joined')  # type: ignore # noqa: F821
-
+    speaker_id: Mapped[str] = mapped_column(
+        String(26),
+        ForeignKey('speakers.id', ondelete='RESTRICT'),
+        nullable=False,
+    )
+    speaker: Mapped['Speaker'] = relationship(back_populates='talks', lazy='joined')  # type: ignore # noqa: F821
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
         nullable=False,
