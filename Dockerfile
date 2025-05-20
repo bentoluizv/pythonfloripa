@@ -13,7 +13,7 @@ ENV PATH="/app/.venv/bin:$PATH"
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync
 
-RUN playwright install --with-deps
+RUN playwright install --with-deps chromium
 
 EXPOSE 8000
 
