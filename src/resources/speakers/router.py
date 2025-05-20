@@ -18,7 +18,7 @@ router = APIRouter(
 )
 
 
-SpeakerRepositoryDep = Annotated[SpeakerRepository, Depends(get_speaker_repository)]
+speaker_repository_dep = Annotated[SpeakerRepository, Depends(get_speaker_repository)]
 
 
 @router.post(
@@ -43,7 +43,7 @@ SpeakerRepositoryDep = Annotated[SpeakerRepository, Depends(get_speaker_reposito
 )
 async def create_speaker(
     speaker_data: SpeakerCreate,
-    speaker_repository: SpeakerRepositoryDep,
+    speaker_repository: speaker_repository_dep,
 ):
     """Cria um novo palestrante no sistema."""
 
@@ -74,7 +74,7 @@ async def create_speaker(
 )
 async def get_speaker(
     speaker_id: str,
-    speaker_repository: SpeakerRepositoryDep,
+    speaker_repository: speaker_repository_dep,
 ):
     """Retorna os dados de um palestrante pelo seu ID."""
 
@@ -114,7 +114,7 @@ async def get_speaker(
 async def update_speaker(
     speaker_id: str,
     speaker_data: SpeakerUpdate,
-    speaker_repository: SpeakerRepositoryDep,
+    speaker_repository: speaker_repository_dep,
 ):
     """Atualiza os dados de um palestrante existente."""
 
@@ -143,7 +143,7 @@ async def update_speaker(
 )
 async def delete_speaker(
     speaker_id: str,
-    speaker_repository: SpeakerRepositoryDep,
+    speaker_repository: speaker_repository_dep,
 ):
     """Deleta um palestrante existente."""
 
@@ -176,7 +176,7 @@ async def delete_speaker(
 )
 async def list_speakers(
     params: Annotated[PaginationParams, Depends()],
-    speaker_repository: SpeakerRepositoryDep,
+    speaker_repository: speaker_repository_dep,
 ):
     """Retorna uma lista paginada de palestrantes."""
     speakers = await speaker_repository.list_speakers(params)
