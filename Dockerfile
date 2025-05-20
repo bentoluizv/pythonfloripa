@@ -1,4 +1,4 @@
-FROM python:3.12-alpine
+FROM python:3.12-slim
 
 RUN apk add --no-cache gcc python3-dev musl-dev linux-headers
 
@@ -14,6 +14,8 @@ ENV PATH="/app/.venv/bin:$PATH"
 
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync
+
+RUN playwright install --with-deps
 
 EXPOSE 8000
 
