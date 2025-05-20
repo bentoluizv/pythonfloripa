@@ -30,9 +30,6 @@ COPY --from=builder /app/.venv /app/.venv
 
 ENV PATH="/app/.venv/bin:$PATH"
 
-RUN --mount=type=cache,target=/root/.cache/ms-playwright \
-    playwright install chromium
-
 RUN chmod +x init.sh
 
 EXPOSE 8000
