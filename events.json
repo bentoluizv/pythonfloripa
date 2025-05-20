@@ -105,6 +105,19 @@
     ]
   },
   {
+    "data": "quinta-feira, 05 de junho",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Floripa Gophers",
+    "local": "Porter - Santa Monica - Florianópolis",
+    "descricao": "Para os apaixonados e entusiastas de Golang. São duas palestras sobre Go, muita troca e network.\n\nO nosso objetivo é fortalecer a comunidade promovendo um espaço de saudável para que cada um se desenvolva individualmente também – seja aprendendo ou compartilhando. Faça parte!",
+    "tags": [
+      "Backend Development",
+      "Software Engineering"
+    ]
+  },
+  {
     "data": "quarta-feira, 11 de junho",
     "horario": "09:00",
     "formato": "Presencial",
