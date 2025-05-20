@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-RUN apk add --no-cache gcc python3-dev musl-dev linux-headers
+RUN apt-get update && apt-get install -y gcc python3-dev musl-dev linux-headers
 
 ENV UV_LINK_MODE=copy
 
