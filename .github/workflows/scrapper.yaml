@@ -3,10 +3,11 @@ name: Run Tech Floripa Scraper
 on:
   schedule:
     - cron: '0 0 * * *'
+
   workflow_dispatch:
 
 jobs:
-  scrape:
+  scrape-tech-floripa:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,11 +28,11 @@ jobs:
         run: |
           playwright install --with-deps chromium
 
-      - name: Run scraper
+      - name: Run scrapper
         run: |
           python scrapper.py
 
-     - name: Configure Git for commit
+      - name: Configure Git for commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
