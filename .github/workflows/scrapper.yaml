@@ -2,7 +2,7 @@ name: Run Tech Floripa Scraper
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 9,21 * * *'  # 06:00 e 18:00 horário de Brasília]
 
   workflow_dispatch:
 
