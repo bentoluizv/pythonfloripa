@@ -34,7 +34,7 @@ EventRepositoryDep = Annotated[EventRepository, Depends(get_event_repository)]
 
     - **title**: Título da palestra
     - **description**: Descrição da palestra
-    - **speaker**: Palestrante da palestra
+    - **speaker_id**: ID do palestrante da palestra
     - **start_time**: Data e hora de início da palestra
     - **end_time**: Data e hora de término da palestra
     - **event_id**: ID do evento da palestra
@@ -85,6 +85,7 @@ async def get_talk(
     talk_repository: TalkRepositoryDep,
 ):
     """Retorna os dados de uma palestra pelo seu ID."""
+
     talk = await talk_repository.get_by_id(talk_id)
 
     if not talk:
@@ -108,7 +109,7 @@ async def get_talk(
     Campos que podem ser atualizados:
     - **title**: Título da palestra
     - **description**: Descrição da palestra
-    - **speaker**: Palestrante da palestra
+    - **speaker_id**: ID do palestrante da palestra
     - **start_time**: Data e hora de início da palestra
     - **end_time**: Data e hora de término da palestra
     - **event_id**: ID do evento da palestra

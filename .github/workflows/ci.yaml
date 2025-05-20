@@ -22,6 +22,9 @@ jobs:
           enable-cache: true
           cache-dependency-glob: "uv.lock"
 
+      - name: Update Lockfile
+        run: uv lock
+
       - name: Install the project
         run: uv sync --locked --all-extras --dev
 

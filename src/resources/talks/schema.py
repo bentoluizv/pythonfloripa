@@ -12,7 +12,7 @@ class TalkDB(BaseModel):
     id: str
     title: str
     description: str
-    speaker: str
+    speaker_id: str
     start_time: datetime
     end_time: datetime
     event_id: str
@@ -25,7 +25,7 @@ class TalkDB(BaseModel):
 class PublicTalk(BaseModel):
     id: str
     title: str
-    speaker: str
+    speaker: 'PublicSpeaker'  # type: ignore # noqa: F821
     start_time: datetime
     end_time: datetime
     event: 'PublicEvent'  # type: ignore  # noqa: F821
@@ -34,7 +34,7 @@ class PublicTalk(BaseModel):
 class TalkCreate(BaseModel):
     title: str
     description: str
-    speaker: str
+    speaker_id: str
     start_time: datetime
     end_time: datetime
     event_id: str
@@ -43,7 +43,7 @@ class TalkCreate(BaseModel):
 class TalkUpdate(BaseModel):
     title: Optional[str] = None
     description: Optional[str] = None
-    speaker: Optional[str] = None
+    speaker_id: Optional[str] = None
     start_time: Optional[datetime] = None
     end_time: Optional[datetime] = None
     event_id: Optional[str] = None

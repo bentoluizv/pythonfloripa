@@ -19,7 +19,7 @@ class TalkRepository:
         talk = Talk(
             title=talk_data.title,
             description=talk_data.description,
-            speaker=talk_data.speaker,
+            speaker_id=talk_data.speaker_id,
             start_time=talk_data.start_time,
             end_time=talk_data.end_time,
             event_id=talk_data.event_id,

@@ -13,6 +13,7 @@ from src.app import app
 from src.ext.database.db import get_async_session
 from src.resources import Base
 from src.resources.events.model import Event
+from src.resources.speakers.model import Speaker
 from src.resources.talks.model import Talk
 from src.resources.users.model import User
 
@@ -111,11 +112,29 @@ async def create_event(session):
 
 
 @pytest.fixture
-async def create_talk(session, create_event):
+async def create_speaker(session):
+    speaker_data = {
+        'name': 'Speaker 1',
+        'email': 'speaker1@test.com',
+        'linkedin_url': 'https://linkedin.com/in/speaker1',
+        'github_url': 'https://github.com/speaker1',
+        'twitter_url': 'https://twitter.com/speaker1',
+        'website_url': 'https://speaker1.com',
+        'bio': 'Speaker 1 bio',
+        'image_url': 'https://example.com/image.jpg',
+    }
+    speaker = Speaker(**speaker_data)
+    session.add(speaker)
+    await session.commit()
+    return speaker
+
+
+@pytest.fixture
+async def create_talk(session, create_event, create_speaker):
     talk_data = {
         'title': 'Talk 1',
         'description': 'Description 1',
-        'speaker': 'Speaker 1',
+        'speaker_id': create_speaker.id,
         'start_time': datetime(2021, 1, 1, 7, 0, 0, tzinfo=timezone.utc),
         'end_time': datetime(2021, 1, 1, 9, 45, 0, tzinfo=timezone.utc),
         'event_id': create_event.id,
