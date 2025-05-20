@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import DateTime, String, Text
+from sqlalchemy import DateTime, String, Text, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from src.resources import Base
@@ -16,8 +16,8 @@ class Speaker(Base):
         default=generate_ulid,
     )
 
-    name: Mapped[str] = mapped_column(String(255), nullable=False)
-    email: Mapped[str] = mapped_column(String(255), nullable=False)
+    name: Mapped[str] = mapped_column(String(255), nullable=False, index=True)
+    email: Mapped[str] = mapped_column(String(255), nullable=False, unique=True, index=True)
     linkedin_url: Mapped[str] = mapped_column(String(255), nullable=True)
     github_url: Mapped[str] = mapped_column(String(255), nullable=True)
     twitter_url: Mapped[str] = mapped_column(String(255), nullable=True)
@@ -28,10 +28,13 @@ class Speaker(Base):
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
         nullable=False,
-        default=datetime.now(),
+        default=func.now(),
     )
     updated_at: Mapped[datetime] = mapped_column(
-        DateTime(timezone=True), nullable=False, default=datetime.now(), onupdate=datetime.now()
+        DateTime(timezone=True),
+        nullable=False,
+        default=func.now(),
+        onupdate=func.now(),
     )
 
     talks: Mapped[list['Talk']] = relationship(back_populates='speaker', lazy='selectin')  # type: ignore  # noqa: F821
