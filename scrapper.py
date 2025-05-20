@@ -2,10 +2,8 @@ import json
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from rich import box
 from rich.console import Console
 from rich.progress import track
-from rich.table import Table
 
 URL = 'https://tech.floripa.br/'
 
@@ -62,24 +60,10 @@ def save_to_json(data, filename='events.json'):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def show_summary(events_data):
-    table = Table(title='📋 Eventos encontrados', box=box.ROUNDED, show_lines=True)
-    table.add_column('Data', style='cyan', no_wrap=True)
-    table.add_column('Horário', style='green')
-    table.add_column('Formato', style='blue')
-    table.add_column('Título', style='magenta')
-
-    for evento in events_data:
-        table.add_row(evento['data'], evento['horario'], evento['formato'], evento['titulo'])
-
-    console.print(table)
-
-
 def get_tech_floripa_events():
     html = fetch_html()
     events_data = parse_events(html)
     save_to_json(events_data)
-    show_summary(events_data)
 
 
 if __name__ == '__main__':
