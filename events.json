@@ -1,45 +1,15 @@
 [
   {
-    "data": "quarta-feira, 21 de maio",
+    "data": "quarta-feira, 28 de maio",
     "horario": "19:00",
-    "formato": "Presencial",
-    "preco": "R$ 25,00",
-    "titulo": "SDN Talks",
-    "local": "RD Station - Saco Grande - Florianópolis",
-    "descricao": "Venha conversar sobre design sistêmico em um encontro presencial entre profissionais apaixonados por design de serviços e transformação.",
-    "tags": [
-      "Frontend Development",
-      "UX/UI Design",
-      "Web Development"
-    ]
-  },
-  {
-    "data": "quinta-feira, 22 de maio",
-    "horario": "13:00",
-    "formato": "Hibrido",
+    "formato": "Online",
     "preco": "Gratuito",
-    "titulo": "Inclu_Tech",
-    "local": "FIESC - Itacorubi - Florianópolis",
-    "descricao": "A FIESC convida para o evento Inclu_Tech, presencial e online/metaverso. Evento que conecta pessoas com deficiência, indústrias, instituições, poder público e a sociedade, compartilhando ações, experiências e tecnologias na construção de um mundo inclusivo.",
+    "titulo": "Esquenta TDC & PyLadies Floripa. “Diversidade e Inovação:Qual é o Match?”",
+    "local": "Evento Online",
+    "descricao": "No dia 28/05, às 19h, a comunidade PyLadies Floripa promove um Esquenta TDC online com o tema: \"Tecnologia, Diversidade e Inovação - Qual é o Match?\"",
     "tags": [
-      "Artificial Intelligence",
+      "Business Intelligence",
       "Business Strategy"
-    ]
-  },
-  {
-    "data": "sábado, 24 de maio",
-    "horario": "14:00",
-    "formato": "Presencial",
-    "preco": "Gratuito",
-    "titulo": "PyLadies Floripa Meetup – Edição Maio 2025",
-    "local": "Impact Hub Floripa Bewiki - Centro - Florianópolis",
-    "descricao": "Encontro para mulheres em tecnologia com talks, conexões e vivências reais.\nEvento gratuito promovido pela PyLadies Floripa no dia 24/05, às 14h, no Impact Hub – Bewiki.",
-    "tags": [
-      "Data Visualization",
-      "Open Source",
-      "Product Management",
-      "UX/UI Design",
-      "Web Development"
     ]
   },
   {
