@@ -72,7 +72,5 @@ jobs:
             automated pr
             events update
           delete-branch: true
-          auto-merge: true
-          auto-merge-method: squash
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
