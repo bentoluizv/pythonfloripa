@@ -1,64 +1,5 @@
 [
   {
-    "data": "quarta-feira, 28 de maio",
-    "horario": "19:00",
-    "formato": "Online",
-    "preco": "Gratuito",
-    "titulo": "Esquenta TDC & PyLadies Floripa. “Diversidade e Inovação:Qual é o Match?”",
-    "local": "Evento Online",
-    "descricao": "No dia 28/05, às 19h, a comunidade PyLadies Floripa promove um Esquenta TDC online com o tema: \"Tecnologia, Diversidade e Inovação - Qual é o Match?\"",
-    "tags": [
-      "Business Intelligence",
-      "Business Strategy"
-    ]
-  },
-  {
-    "data": "quinta-feira, 29 de maio",
-    "horario": "08:00",
-    "formato": "Hibrido",
-    "preco": "R$ 1.297,00",
-    "titulo": "AI Summit Brasil 2025 – Florianópolis",
-    "local": "Passeio Sapiens - Canasvieiras - Florianópolis",
-    "descricao": "O AI Summit Brasil 2025, idealizado pelo Instituto Valor, chega a Florianópolis como um dos principais capítulos do maior circuito nacional sobre Inteligência Artificial, reunindo especialistas e líderes para moldar, de forma ética e inovadora, o futuro da tecnologia.",
-    "tags": [
-      "Artificial Intelligence",
-      "Business Strategy",
-      "Privacy & Data Protection"
-    ]
-  },
-  {
-    "data": "sábado, 31 de maio",
-    "horario": "09:01",
-    "formato": "Hibrido",
-    "preco": "Gratuito",
-    "titulo": "Cumbuca Dev Floripa",
-    "local": "SEBRAE Florianópolis - João Paulo - Florianópolis",
-    "descricao": "A Cumbuca Dev desembarca em Florianópolis para seu primeiro evento presencial — um encontro feito para celebrar nossa trajetória com quem caminha ao nosso lado. Nesta manhã especial, vamos lançar oficialmente o curso GitHub Essentials, reunir pessoas da comunidade tech e criar espaços reais de troca e aprendizado colaborativo.",
-    "tags": [
-      "Backend Development",
-      "CI/CD (Continuous Integration/Delivery)",
-      "DevOps",
-      "Full Stack",
-      "Open Source"
-    ]
-  },
-  {
-    "data": "sábado, 31 de maio",
-    "horario": "13:29",
-    "formato": "Hibrido",
-    "preco": "Gratuito",
-    "titulo": "86º Python Floripa ➞ SEBRAE",
-    "local": "SEBRAE - João Paulo - Florianópolis",
-    "descricao": "Junte-se à comunidade Python Floripa no 86º Meetup, desta vez no SEBRAE/SC, em parceria com a IxDA Florianópolis! Um encontro que conecta tecnologia e design com talks inspiradoras, networking de qualidade, coffee break e painéis interativos. As vagas são limitadas — garanta a sua inscrição e venha trocar ideias, aprender e fazer parte da comunidade que transforma o ecossistema tech de Floripa! 🚀",
-    "tags": [
-      "API Development",
-      "Data Engineering",
-      "Machine Learning",
-      "Software Engineering",
-      "UX/UI Design"
-    ]
-  },
-  {
     "data": "terça-feira, 03 de junho",
     "horario": "18:15",
     "formato": "Presencial",
@@ -72,6 +13,20 @@
       "Big Data",
       "DevOps",
       "Full Stack"
+    ]
+  },
+  {
+    "data": "quarta-feira, 04 de junho",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Encontro da comunidade AWS User Group Florianópolis – Edição de Junho: talks + pizza",
+    "local": "Auditório da Zoho Brasil - Monte Verde - Florianópolis",
+    "descricao": "Encontro da comunidade AWS User Group Florianópolis - Edição de Junho: talks + pizza\n\nParticipe de mais uma noite de muito aprendizado sobre FinOps, CDK, qualidade de software, troca de experiências e networking com profissionais que vivem o dia a dia da nuvem.",
+    "tags": [
+      "CI/CD (Continuous Integration/Delivery)",
+      "Cloud Computing",
+      "DevOps"
     ]
   },
   {
