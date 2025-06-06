@@ -1,45 +1,15 @@
 [
   {
-    "data": "terça-feira, 03 de junho",
-    "horario": "18:15",
+    "data": "terça-feira, 10 de junho",
+    "horario": "18:30",
     "formato": "Presencial",
     "preco": "Gratuito",
-    "titulo": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
-    "local": "Neoway - Itacorubi - Florianópolis",
-    "descricao": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
+    "titulo": "Terra Hack em Floripa: ProgramEarth & GitHub",
+    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "Organizado pelo GitHub em parceria com a organização sem fins lucrativos ProgramEarth.\nApoio: Python Floripa, UNICESUSC e Cumbuca Dev",
     "tags": [
-      "API Development",
-      "Backend Development",
-      "Big Data",
-      "DevOps",
-      "Full Stack"
-    ]
-  },
-  {
-    "data": "quarta-feira, 04 de junho",
-    "horario": "19:00",
-    "formato": "Presencial",
-    "preco": "Gratuito",
-    "titulo": "Encontro da comunidade AWS User Group Florianópolis – Edição de Junho: talks + pizza",
-    "local": "Auditório da Zoho Brasil - Monte Verde - Florianópolis",
-    "descricao": "Encontro da comunidade AWS User Group Florianópolis - Edição de Junho: talks + pizza\n\nParticipe de mais uma noite de muito aprendizado sobre FinOps, CDK, qualidade de software, troca de experiências e networking com profissionais que vivem o dia a dia da nuvem.",
-    "tags": [
-      "CI/CD (Continuous Integration/Delivery)",
-      "Cloud Computing",
-      "DevOps"
-    ]
-  },
-  {
-    "data": "quinta-feira, 05 de junho",
-    "horario": "19:00",
-    "formato": "Presencial",
-    "preco": "Gratuito",
-    "titulo": "Floripa Gophers",
-    "local": "Porter - Santa Monica - Florianópolis",
-    "descricao": "Para os apaixonados e entusiastas de Golang. São duas palestras sobre Go, muita troca e network.\n\nO nosso objetivo é fortalecer a comunidade promovendo um espaço de saudável para que cada um se desenvolva individualmente também – seja aprendendo ou compartilhando. Faça parte!",
-    "tags": [
-      "Backend Development",
-      "Software Engineering"
+      "Growth Hacking",
+      "Open Source"
     ]
   },
   {
