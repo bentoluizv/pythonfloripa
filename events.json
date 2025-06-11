@@ -1,48 +1,5 @@
 [
   {
-    "data": "terça-feira, 03 de junho",
-    "horario": "18:15",
-    "formato": "Presencial",
-    "preco": "Gratuito",
-    "titulo": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
-    "local": "Neoway - Itacorubi - Florianópolis",
-    "descricao": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
-    "tags": [
-      "API Development",
-      "Backend Development",
-      "Big Data",
-      "DevOps",
-      "Full Stack"
-    ]
-  },
-  {
-    "data": "quarta-feira, 04 de junho",
-    "horario": "19:00",
-    "formato": "Presencial",
-    "preco": "Gratuito",
-    "titulo": "Encontro da comunidade AWS User Group Florianópolis – Edição de Junho: talks + pizza",
-    "local": "Auditório da Zoho Brasil - Monte Verde - Florianópolis",
-    "descricao": "Encontro da comunidade AWS User Group Florianópolis - Edição de Junho: talks + pizza\n\nParticipe de mais uma noite de muito aprendizado sobre FinOps, CDK, qualidade de software, troca de experiências e networking com profissionais que vivem o dia a dia da nuvem.",
-    "tags": [
-      "CI/CD (Continuous Integration/Delivery)",
-      "Cloud Computing",
-      "DevOps"
-    ]
-  },
-  {
-    "data": "quinta-feira, 05 de junho",
-    "horario": "19:00",
-    "formato": "Presencial",
-    "preco": "Gratuito",
-    "titulo": "Floripa Gophers",
-    "local": "Porter - Santa Monica - Florianópolis",
-    "descricao": "Para os apaixonados e entusiastas de Golang. São duas palestras sobre Go, muita troca e network.\n\nO nosso objetivo é fortalecer a comunidade promovendo um espaço de saudável para que cada um se desenvolva individualmente também – seja aprendendo ou compartilhando. Faça parte!",
-    "tags": [
-      "Backend Development",
-      "Software Engineering"
-    ]
-  },
-  {
     "data": "quarta-feira, 11 de junho",
     "horario": "09:00",
     "formato": "Presencial",
@@ -85,6 +42,22 @@
     "tags": [
       "Cybersecurity",
       "Privacy & Data Protection"
+    ]
+  },
+  {
+    "data": "sábado, 28 de junho",
+    "horario": "08:59",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "87º Python Floripa × CODECON @ UNICESUSC",
+    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "O 87º Meetup da comunidade Python Floripa será um evento imperdível para quem respira tecnologia e inovação. Em parceria com a CODECON e com o apoio da UNICESUSC e da FIAP, a edição acontecerá ao longo de um dia inteiro de talks, networking e troca de experiências no campus da UNICESUSC, em Florianópolis.",
+    "tags": [
+      "Artificial Intelligence",
+      "Backend Development",
+      "CI/CD (Continuous Integration/Delivery)",
+      "Machine Learning",
+      "Software Engineering"
     ]
   }
 ]
