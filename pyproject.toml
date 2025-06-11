@@ -13,6 +13,7 @@ dependencies = [
     "pydantic-settings>=2.9.1",
     "python-ulid>=3.0.0",
     "sqlalchemy>=2.0.41",
+    "uvicorn>=0.34.2",
 ]
 
 
