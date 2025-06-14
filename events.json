@@ -1,21 +1,5 @@
 [
   {
-    "data": "quarta-feira, 11 de junho",
-    "horario": "09:00",
-    "formato": "Presencial",
-    "preco": "R$ 1.045,00",
-    "titulo": "18ª TDC Floripa",
-    "local": "CentroSul - Centro - Florianópolis",
-    "descricao": "A décima oitava edição do TDC Florianópolis traz três dias com diversas trilhas de palestras e painéis de nível intermediário e avançado, focados em alavancar a sua carreira e acelerar a adoção de tecnologias emergentes.",
-    "tags": [
-      "Artificial Intelligence",
-      "Backend Development",
-      "Data Science",
-      "DevOps",
-      "Full Stack"
-    ]
-  },
-  {
     "data": "quarta-feira, 25 de junho",
     "horario": "19:00",
     "formato": "Presencial",
@@ -58,6 +42,22 @@
       "CI/CD (Continuous Integration/Delivery)",
       "Machine Learning",
       "Software Engineering"
+    ]
+  },
+  {
+    "data": "quinta-feira, 10 de julho",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup WordPress Floripa",
+    "local": "Hostgator - Trindade - Florianópolis",
+    "descricao": "Encontro da comunidade WordPress Floripa - https://wpfloripa.com.br",
+    "tags": [
+      "Cybersecurity",
+      "E-commerce",
+      "Startups",
+      "UX/UI Design",
+      "Web Development"
     ]
   }
 ]
