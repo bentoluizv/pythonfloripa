@@ -1,18 +1,329 @@
 [
   {
-    "data": "quarta-feira, 11 de junho",
+    "data": "sexta-feira, 15 de agosto",
+    "horario": "18:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Osint & Cachaça",
+    "local": "Balburdia - Centro - Florianópolis",
+    "descricao": "Para a galera fã de OSINT do Brasil, de Investigação Digital, mais um encontro, afinal Osint é uma cachaça!",
+    "tags": [
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Internet of Things (IoT)",
+      "Open Source"
+    ]
+  },
+  {
+    "data": "sábado, 16 de agosto",
     "horario": "09:00",
     "formato": "Presencial",
-    "preco": "R$ 1.045,00",
-    "titulo": "18ª TDC Floripa",
-    "local": "CentroSul - Centro - Florianópolis",
-    "descricao": "A décima oitava edição do TDC Florianópolis traz três dias com diversas trilhas de palestras e painéis de nível intermediário e avançado, focados em alavancar a sua carreira e acelerar a adoção de tecnologias emergentes.",
+    "preco": "R$ 749,00",
+    "titulo": "Arena in Floripa – Pensamento crítico e analítico + AI no code para PM",
+    "local": "Porter Group - Santa Mônica - Florianópolis",
+    "descricao": "Product Arena está de volta a Floripa!!!!",
+    "tags": [
+      "5G/6G Technology",
+      "Agile Methodologies",
+      "Artificial Intelligence",
+      "Open Source",
+      "Product Management"
+    ]
+  },
+  {
+    "data": "sábado, 16 de agosto",
+    "horario": "09:00",
+    "formato": "Presencial",
+    "preco": "R$ 130,00",
+    "titulo": "Hacking na Web Day Florianópolis",
+    "local": "Castelmar Hotel & Eventos - Centro - Florianópolis",
+    "descricao": "O Hacking Na Web Day é um aguardado evento itinerante de Hacking, que chega em várias cidades esse ano, incluindo Floripa! O evento é feito para a comunidade, com palestras técnicas e atividades, aberto ao público.",
+    "tags": [
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Growth Hacking"
+    ]
+  },
+  {
+    "data": "terça-feira, 19 de agosto",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup Codecon #12",
+    "local": "Wooden Tap Beer - Centro - Florianópolis",
+    "descricao": "Meetup da Codecon #12",
+    "tags": [
+      "API Development",
+      "Artificial Intelligence",
+      "Backend Development",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 21 de agosto",
+    "horario": "13:00",
+    "formato": "Presencial",
+    "preco": "R$ 99,90",
+    "titulo": "Digital Leaders – Edição sul 2025",
+    "local": "AEMFLO-CDL São José - Distrito Industrial - São José",
+    "descricao": "O Digital Leaders – Edição Sul 2025 chega para ser o ponto de encontro definitivo para empresários e líderes da região Sul que querem entender como a inteligência artificial e o SEO estão transformando o marketing e as vendas.",
+    "tags": [
+      "Artificial Intelligence",
+      "Big Data",
+      "E-commerce"
+    ]
+  },
+  {
+    "data": "quinta-feira, 21 de agosto",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup WordPress Floripa",
+    "local": "Hostgator - Trindade - Florianópolis",
+    "descricao": "Alô, Comunidade WordPress Floripa! Nossa próxima edição está imperdível: vamos mergulhar nas inovações que estão moldando o futuro do WordPress — da integração com Inteligência Artificial à segurança avançada contra ataques como XSS. Tudo isso com convidados de peso!",
+    "tags": [
+      "Artificial Intelligence",
+      "Business Intelligence",
+      "Cybersecurity",
+      "Full Stack",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quarta-feira, 27 de agosto",
+    "horario": "13:00",
+    "formato": "Presencial",
+    "preco": "R$ 499,00",
+    "titulo": "🧠 Startup Summit 2025",
+    "local": "Centrosul - Centro - Florianópolis",
+    "descricao": "De 27 a 29 de agosto, Florianópolis recebe o Startup Summit, o maior evento de inovação da América Latina. Serão 10 mil participantes, 200 palestrantes — como Tom Gruber (Siri) e Guilherme Horn (WhatsApp) — trilhas em IA, fintech, healthtech e muito mais. Garanta seu ingresso com 20% de desconto!",
+    "tags": [
+      "Business Intelligence",
+      "Business Strategy",
+      "Growth Hacking",
+      "Startups",
+      "Venture Capital"
+    ]
+  },
+  {
+    "data": "sábado, 30 de agosto",
+    "horario": "13:29",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "89º Python Floripa ➞ UNIVALI",
+    "local": "UNIVALI SC401 - Saco Grande - Florianópolis",
+    "descricao": "Garanta seu lugar no 89º Python Floripa na UNIVALI e leve para casa dicas práticas de Python, conexões que aceleram sua carreira e a dose extra de inspiração que transforma ideias em projetos reais. 🚀",
+    "tags": [
+      "Artificial Intelligence",
+      "Backend Development",
+      "Data Engineering",
+      "Machine Learning",
+      "Open Source"
+    ]
+  },
+  {
+    "data": "sábado, 20 de setembro",
+    "horario": "08:00",
+    "formato": "Presencial",
+    "preco": "Esgotado",
+    "titulo": "Code Island Cloud 2025",
+    "local": "UniCesusc - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "O evento de Cloud que iremos promover é destinado ao público exigente e interessado em ficar atualizado com as últimas novidades tecnológicas relacionadas ao mundo Cloud.",
+    "tags": [
+      "Artificial Intelligence",
+      "CI/CD (Continuous Integration/Delivery)",
+      "Cloud Computing",
+      "DevOps",
+      "Startups"
+    ]
+  },
+  {
+    "data": "sábado, 15 de novembro",
+    "horario": "08:00",
+    "formato": "Presencial",
+    "preco": "R$ 170,00",
+    "titulo": "Front in Floripa 2025",
+    "local": "ACM - Associação Catarinense de Medicina - Saco Grande - Florianópolis",
+    "descricao": "Maior evento front-end do Brasil em 2025!",
+    "tags": [
+      "Artificial Intelligence",
+      "Frontend Development",
+      "Open Source",
+      "Software Engineering",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 26 de março",
+    "horario": "08:00",
+    "formato": "Presencial",
+    "preco": "R$ 799,00",
+    "titulo": "DWX | Data World Xperience 26",
+    "local": "Centrosul - Centro - Florianópolis",
+    "descricao": "O DWX (Data World Xperience) é o MAIOR EVENTO de Dados, IA e Tecnologia do Brasil. Este evento inovador não apenas explora as últimas tendências tecnológicas, mas também estabelece um diálogo estratégico sobre como os dados podem impulsionar o sucesso organizacional e orientar decisões assertivas.",
+    "tags": [
+      "Big Data",
+      "Business Intelligence",
+      "Data Engineering",
+      "Data Science",
+      "Data Visualization"
+    ]
+  },
+  {
+    "data": "quinta-feira, 07 de agosto",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "Sold-out",
+    "titulo": "Floripa Gophers",
+    "local": "Neoway - Itacorubi - Florianópolis",
+    "descricao": "O Floripa Gophers é um encontro para quem curte ou quer aprender mais sobre Go (Golang). A ideia é simples: reunir a comunidade local para trocar experiências, discutir a linguagem e criar um ambiente onde todo mundo se sinta à vontade para aprender e compartilhar.",
+    "tags": [
+      "Backend Development",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "quinta-feira, 07 de agosto",
+    "horario": "18:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "LINUXtips.local – Florianópolis",
+    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "LINUXtips.local Florianópolis – Onde tradição e tecnologia criam o futuro.",
+    "tags": [
+      "CI/CD (Continuous Integration/Delivery)",
+      "Cloud Computing",
+      "DevOps",
+      "Kubernetes & Docker",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "quinta-feira, 31 de julho",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Workshop – Meshtastic – Mesh Off Grid",
+    "local": "Wooden Tap Beer - Centro - Florianópolis",
+    "descricao": "Workshop sobre LoRa – Meshtastic",
+    "tags": [
+      "Blockchain",
+      "Internet of Things (IoT)"
+    ]
+  },
+  {
+    "data": "quarta-feira, 30 de julho",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "R$ 35,00",
+    "titulo": "Design de Sentido no Ecossistema Digital",
+    "local": "ACATE Downtown - Centro - Florianópolis",
+    "descricao": "Como repensar a experiência digital em tempos de distração infinita",
+    "tags": [
+      "Product Management",
+      "UX/UI Design"
+    ]
+  },
+  {
+    "data": "sábado, 26 de julho",
+    "horario": "13:29",
+    "formato": "Presencial",
+    "preco": "Sold-out",
+    "titulo": "88º Python Floripa ➞ IFSC",
+    "local": "IFSC Câmpus Florianópolis - Centro - Florianópolis",
+    "descricao": "Meetup presencial da comunidade Python Floripa no IFSC: talks técnicas, networking e coffee break em uma tarde repleta de open source e inovação.",
     "tags": [
       "Artificial Intelligence",
       "Backend Development",
       "Data Science",
-      "DevOps",
-      "Full Stack"
+      "Machine Learning",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "quarta-feira, 16 de julho",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "R$ 22,50",
+    "titulo": "Mdp Curtas Floripa",
+    "local": "DOT Digital Group - Saco Grande - Florianópolis",
+    "descricao": "Entre o que criamos e o que escolhemos não criar, evento para mulheres, no Curtas de Floripa, quem conduz essa conversa é Ollivia Maria,",
+    "tags": [
+      "Growth Hacking",
+      "Product Management",
+      "Startups",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 10 de julho",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup WordPress Floripa",
+    "local": "Hostgator - Trindade - Florianópolis",
+    "descricao": "Encontro da comunidade WordPress Floripa - https://wpfloripa.com.br",
+    "tags": [
+      "Cybersecurity",
+      "E-commerce",
+      "Startups",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "sábado, 05 de julho",
+    "horario": "14:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "#30 FloripaJS",
+    "local": "Porter - Santa Mônica - Florianópolis",
+    "descricao": "Mais um encontro da maior comunidade front-end de Floripa!",
+    "tags": [
+      "Frontend Development",
+      "Open Source",
+      "Software Engineering",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "sábado, 05 de julho",
+    "horario": "08:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Level One 2025",
+    "local": "Centrosul - Centro - Florianópolis",
+    "descricao": "O Level One é um evento de carreira gratuito que cria uma ponte entre os universitários de Santa Catarina e Grandes Empresas do Mercado, conectando por meio de uma experiência imersiva, dinâmica e gamificada, os jovens com seu futuro profissional.",
+    "tags": []
+  },
+  {
+    "data": "sábado, 28 de junho",
+    "horario": "08:59",
+    "formato": "Presencial",
+    "preco": "Sold-out",
+    "titulo": "87º Python Floripa × CODECON @ UNICESUSC",
+    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "O 87º Meetup da comunidade Python Floripa será um evento imperdível para quem respira tecnologia e inovação. Em parceria com a CODECON e com o apoio da UNICESUSC e da FIAP, a edição acontecerá ao longo de um dia inteiro de talks, networking e troca de experiências no campus da UNICESUSC, em Florianópolis.",
+    "tags": [
+      "Artificial Intelligence",
+      "Backend Development",
+      "CI/CD (Continuous Integration/Delivery)",
+      "Machine Learning",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "quinta-feira, 26 de junho",
+    "horario": "10:00",
+    "formato": "Presencial",
+    "preco": "R$ 239,00",
+    "titulo": "Security Tech Day 2025",
+    "local": "CIA Passeio Sapiens - Canasvieiras - Florianópolis",
+    "descricao": "O Security Tech Day 2025 chega à sua 4ª edição reunindo especialistas e líderes para debater estratégias inovadoras de proteção ciberfísica e apresentar soluções tecnológicas que fortalecem a resiliência de empresas e da sociedade frente a ameaças integradas.",
+    "tags": [
+      "Cybersecurity",
+      "Privacy & Data Protection"
     ]
   },
   {
@@ -32,32 +343,458 @@
     ]
   },
   {
-    "data": "quinta-feira, 26 de junho",
-    "horario": "10:00",
+    "data": "quarta-feira, 11 de junho",
+    "horario": "09:00",
     "formato": "Presencial",
-    "preco": "R$ 239,00",
-    "titulo": "Security Tech Day 2025",
-    "local": "CIA Passeio Sapiens - Canasvieiras - Florianópolis",
-    "descricao": "O Security Tech Day 2025 chega à sua 4ª edição reunindo especialistas e líderes para debater estratégias inovadoras de proteção ciberfísica e apresentar soluções tecnológicas que fortalecem a resiliência de empresas e da sociedade frente a ameaças integradas.",
+    "preco": "R$ 1.045,00",
+    "titulo": "18ª TDC Floripa",
+    "local": "CentroSul - Centro - Florianópolis",
+    "descricao": "A décima oitava edição do TDC Florianópolis traz três dias com diversas trilhas de palestras e painéis de nível intermediário e avançado, focados em alavancar a sua carreira e acelerar a adoção de tecnologias emergentes.",
     "tags": [
-      "Cybersecurity",
+      "Artificial Intelligence",
+      "Backend Development",
+      "Data Science",
+      "DevOps",
+      "Full Stack"
+    ]
+  },
+  {
+    "data": "terça-feira, 10 de junho",
+    "horario": "18:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Terra Hack em Floripa: ProgramEarth & GitHub",
+    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "Organizado pelo GitHub em parceria com a organização sem fins lucrativos ProgramEarth.\nApoio: Python Floripa, UNICESUSC e Cumbuca Dev",
+    "tags": [
+      "Growth Hacking",
+      "Open Source"
+    ]
+  },
+  {
+    "data": "quinta-feira, 05 de junho",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Sold-out",
+    "titulo": "Floripa Gophers",
+    "local": "Porter - Santa Monica - Florianópolis",
+    "descricao": "Para os apaixonados e entusiastas de Golang. São duas palestras sobre Go, muita troca e network.\n\nO nosso objetivo é fortalecer a comunidade promovendo um espaço de saudável para que cada um se desenvolva individualmente também – seja aprendendo ou compartilhando. Faça parte!",
+    "tags": [
+      "Backend Development",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "quarta-feira, 04 de junho",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Encontro da comunidade AWS User Group Florianópolis – Edição de Junho: talks + pizza",
+    "local": "Auditório da Zoho Brasil - Monte Verde - Florianópolis",
+    "descricao": "Encontro da comunidade AWS User Group Florianópolis - Edição de Junho: talks + pizza\n\nParticipe de mais uma noite de muito aprendizado sobre FinOps, CDK, qualidade de software, troca de experiências e networking com profissionais que vivem o dia a dia da nuvem.",
+    "tags": [
+      "CI/CD (Continuous Integration/Delivery)",
+      "Cloud Computing",
+      "DevOps"
+    ]
+  },
+  {
+    "data": "terça-feira, 03 de junho",
+    "horario": "18:15",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
+    "local": "Neoway - Itacorubi - Florianópolis",
+    "descricao": "MUG Florianópolis: 03/06/2025 Gestão de MongoDB e AI na Prática.",
+    "tags": [
+      "API Development",
+      "Backend Development",
+      "Big Data",
+      "DevOps",
+      "Full Stack"
+    ]
+  },
+  {
+    "data": "sábado, 31 de maio",
+    "horario": "13:29",
+    "formato": "Hibrido",
+    "preco": "Sold-out",
+    "titulo": "86º Python Floripa ➞ SEBRAE",
+    "local": "SEBRAE - João Paulo - Florianópolis",
+    "descricao": "Junte-se à comunidade Python Floripa no 86º Meetup, desta vez no SEBRAE/SC, em parceria com a IxDA Florianópolis! Um encontro que conecta tecnologia e design com talks inspiradoras, networking de qualidade, coffee break e painéis interativos. As vagas são limitadas — garanta a sua inscrição e venha trocar ideias, aprender e fazer parte da comunidade que transforma o ecossistema tech de Floripa! 🚀",
+    "tags": [
+      "API Development",
+      "Data Engineering",
+      "Machine Learning",
+      "Software Engineering",
+      "UX/UI Design"
+    ]
+  },
+  {
+    "data": "sábado, 31 de maio",
+    "horario": "09:01",
+    "formato": "Hibrido",
+    "preco": "Sold-out",
+    "titulo": "Cumbuca Dev Floripa",
+    "local": "SEBRAE Florianópolis - João Paulo - Florianópolis",
+    "descricao": "A Cumbuca Dev desembarca em Florianópolis para seu primeiro evento presencial — um encontro feito para celebrar nossa trajetória com quem caminha ao nosso lado. Nesta manhã especial, vamos lançar oficialmente o curso GitHub Essentials, reunir pessoas da comunidade tech e criar espaços reais de troca e aprendizado colaborativo.",
+    "tags": [
+      "Backend Development",
+      "CI/CD (Continuous Integration/Delivery)",
+      "DevOps",
+      "Full Stack",
+      "Open Source"
+    ]
+  },
+  {
+    "data": "quinta-feira, 29 de maio",
+    "horario": "08:00",
+    "formato": "Hibrido",
+    "preco": "R$ 1.297,00",
+    "titulo": "AI Summit Brasil 2025 – Florianópolis",
+    "local": "Passeio Sapiens - Canasvieiras - Florianópolis",
+    "descricao": "O AI Summit Brasil 2025, idealizado pelo Instituto Valor, chega a Florianópolis como um dos principais capítulos do maior circuito nacional sobre Inteligência Artificial, reunindo especialistas e líderes para moldar, de forma ética e inovadora, o futuro da tecnologia.",
+    "tags": [
+      "Artificial Intelligence",
+      "Business Strategy",
       "Privacy & Data Protection"
     ]
   },
   {
-    "data": "sábado, 28 de junho",
-    "horario": "08:59",
-    "formato": "Presencial",
+    "data": "quarta-feira, 28 de maio",
+    "horario": "19:00",
+    "formato": "Online",
     "preco": "Gratuito",
-    "titulo": "87º Python Floripa × CODECON @ UNICESUSC",
-    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
-    "descricao": "O 87º Meetup da comunidade Python Floripa será um evento imperdível para quem respira tecnologia e inovação. Em parceria com a CODECON e com o apoio da UNICESUSC e da FIAP, a edição acontecerá ao longo de um dia inteiro de talks, networking e troca de experiências no campus da UNICESUSC, em Florianópolis.",
+    "titulo": "Esquenta TDC & PyLadies Floripa. “Diversidade e Inovação:Qual é o Match?”",
+    "local": "Evento Online",
+    "descricao": "No dia 28/05, às 19h, a comunidade PyLadies Floripa promove um Esquenta TDC online com o tema: \"Tecnologia, Diversidade e Inovação - Qual é o Match?\"",
+    "tags": [
+      "Business Intelligence",
+      "Business Strategy"
+    ]
+  },
+  {
+    "data": "sábado, 24 de maio",
+    "horario": "14:00",
+    "formato": "Presencial",
+    "preco": "Sold-out",
+    "titulo": "PyLadies Floripa Meetup – Edição Maio 2025",
+    "local": "Impact Hub Floripa Bewiki - Centro - Florianópolis",
+    "descricao": "Encontro para mulheres em tecnologia com talks, conexões e vivências reais.\nEvento gratuito promovido pela PyLadies Floripa no dia 24/05, às 14h, no Impact Hub – Bewiki.",
+    "tags": [
+      "Data Visualization",
+      "Open Source",
+      "Product Management",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 22 de maio",
+    "horario": "13:00",
+    "formato": "Hibrido",
+    "preco": "Gratuito",
+    "titulo": "Inclu_Tech",
+    "local": "FIESC - Itacorubi - Florianópolis",
+    "descricao": "A FIESC convida para o evento Inclu_Tech, presencial e online/metaverso. Evento que conecta pessoas com deficiência, indústrias, instituições, poder público e a sociedade, compartilhando ações, experiências e tecnologias na construção de um mundo inclusivo.",
     "tags": [
       "Artificial Intelligence",
-      "Backend Development",
+      "Business Strategy"
+    ]
+  },
+  {
+    "data": "quarta-feira, 21 de maio",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "R$ 25,00",
+    "titulo": "SDN Talks",
+    "local": "RD Station - Saco Grande - Florianópolis",
+    "descricao": "Venha conversar sobre design sistêmico em um encontro presencial entre profissionais apaixonados por design de serviços e transformação.",
+    "tags": [
+      "Frontend Development",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "sábado, 10 de maio",
+    "horario": "09:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Global Azure feat Azure Floripa",
+    "local": "Neoway - Itacorubi - Florianópolis",
+    "descricao": "Este é o seu momento de se conectar com profissionais, explorar as inovações do Azure e transformar a maneira como você vive a nuvem.",
+    "tags": [
       "CI/CD (Continuous Integration/Delivery)",
-      "Machine Learning",
+      "Cloud Computing",
+      "Cybersecurity",
+      "DevOps",
       "Software Engineering"
     ]
+  },
+  {
+    "data": "domingo, 04 de maio",
+    "horario": "08:00",
+    "formato": "Presencial",
+    "preco": "R$ 447,00",
+    "titulo": "GopherCon Latam 2025",
+    "local": "Centro Sul - Centro - Florianópolis",
+    "descricao": "",
+    "tags": [
+      "API Development",
+      "Backend Development",
+      "Software Engineering",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "sábado, 26 de abril",
+    "horario": "13:29",
+    "formato": "Hibrido",
+    "preco": "Gratuito",
+    "titulo": "85º Python Floripa – UNICESUSC",
+    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "Vamos reunir a comunidade de tecnologia para um evento com foco em aprendizado e networking, em parceria com a Code Island e o apoio da UNICESUSC através do curso de Análise e Desenvolvimento de Sistemas.",
+    "tags": [
+      "Backend Development",
+      "Data Engineering",
+      "Deep Learning",
+      "Open Source",
+      "Serverless Computing"
+    ]
+  },
+  {
+    "data": "sábado, 26 de abril",
+    "horario": "08:29",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Ctrl+Z – Histórias da Vida Real",
+    "local": "UNICESUSC - Santo Antônio de Lisboa - Florianópolis",
+    "descricao": "É a estreia do Ctrl+Z – Histórias da Vida Real, uma roda de conversa sincera, leve e inspiradora com quatro profissionais reconhecidos da nossa comunidade. Eles vão compartilhar o que quase ninguém conta: os tropeços, os bugs da vida real, os projetos que deram tela azul — e como tudo isso os transformou em profissionais ainda melhores!",
+    "tags": [
+      "Backend Development",
+      "Business Strategy",
+      "Data Engineering",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "sexta-feira, 25 de abril",
+    "horario": "18:00",
+    "formato": "Presencial",
+    "preco": "R$ 98,89",
+    "titulo": "SW Cybersecurity 2025",
+    "local": "AEMFLO São José - Distrito Industrial - São José",
+    "descricao": "Transforme sua ideia em uma startup em apenas 54 horas!",
+    "tags": [
+      "Cybersecurity",
+      "Growth Hacking",
+      "Startups"
+    ]
+  },
+  {
+    "data": "quinta-feira, 24 de abril",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup WordPress Floripa",
+    "local": "Hostgator - Trindade - Florianópolis",
+    "descricao": "Encontro da comunidade WordPress Floripa grátis e aberto a todos.",
+    "tags": [
+      "Business Strategy",
+      "Cybersecurity",
+      "E-commerce",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 24 de abril",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "2º Floripa Community dbt meetup",
+    "local": "Wooden Tap Beer - Centro - Florianópolis",
+    "descricao": "Meetups dbt são eventos de networking abertos a todas as pessoas que trabalham com dados! As palestras predominantemente focam na experiência dos membros da comunidade com o dbt, no entanto, você poderá encontrar apresentações sobre tópicos mais amplos, como engenharia de dados, stacks de dados, data ops, modelagem, testes e mais!",
+    "tags": [
+      "Business Intelligence",
+      "Cloud Computing",
+      "Data Engineering",
+      "Open Source",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "quarta-feira, 23 de abril",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup Wi-Fi Floripa",
+    "local": "Hub Primavera - Saco Grande - Florianópolis",
+    "descricao": "Redes, Wi-Fi, Cibersegurança, Open Source e muito mais!",
+    "tags": [
+      "Cybersecurity",
+      "Growth Hacking",
+      "IT Operations",
+      "Open Source"
+    ]
+  },
+  {
+    "data": "quinta-feira, 03 de abril",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Floripa Gophers",
+    "local": "Neoway - Itacorubi - Florianópolis",
+    "descricao": "Evento da comunidade Go da Grande Florianópolis para troca de conhecimento e discussões voltadas à linguagem.",
+    "tags": [
+      "Backend Development",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "sábado, 29 de março",
+    "horario": "13:29",
+    "formato": "Hibrido",
+    "preco": "Gratuito",
+    "titulo": "84º Python Floripa – UNIVALI",
+    "local": "UNIVALI Campus Florianópolis - Saco Grande - Florianópolis",
+    "descricao": "Vamos reunir a comunidade de tecnologia para um evento com foco no protagonismo feminino, aprendizado e networking, em parceria com a AWS User Group Florianópolis e apoiado por UNIVALI, Cheesecake Labs e Select Soluções.",
+    "tags": [
+      "Backend Development",
+      "Cloud Computing",
+      "Data Science",
+      "Open Source",
+      "Software Engineering"
+    ]
+  },
+  {
+    "data": "sábado, 29 de março",
+    "horario": "09:00",
+    "formato": "Presencial",
+    "preco": "R$ 250,00",
+    "titulo": "Floripa Design Day",
+    "local": "Sapiens Parque S.A - Cachoeira do Bom Jesus - Florianópolis",
+    "descricao": "Floripa Design Day 2025 - Design, Inovação e Negócios",
+    "tags": [
+      "Startups",
+      "UX/UI Design"
+    ]
+  },
+  {
+    "data": "sábado, 29 de março",
+    "horario": "09:00",
+    "formato": "Presencial",
+    "preco": "Sold-out",
+    "titulo": "Hands On ➞ Apache Superset",
+    "local": "UNIVALI Campus Florianópolis - Saco Grande - Florianópolis",
+    "descricao": "Descubra como usar o Apache Superset, a alternativa gratuita e open-source para BI, e aprenda a criar dashboards interativos sem precisar programar! 🚀",
+    "tags": [
+      "Business Intelligence",
+      "Business Strategy",
+      "Data Engineering",
+      "Data Science",
+      "Data Visualization"
+    ]
+  },
+  {
+    "data": "sexta-feira, 28 de março",
+    "horario": "08:00",
+    "formato": "Presencial",
+    "preco": "R$ 99,90",
+    "titulo": "Sem Servidor Conf 2025",
+    "local": "Faial Prime Suites - Centro - Florianópolis",
+    "descricao": "Será um dia repleto de conteúdo relacionado a cloud computing, serverless e valiosos momentos de networking.",
+    "tags": [
+      "Backend Development",
+      "Cloud Computing",
+      "DevOps",
+      "Serverless Computing"
+    ]
+  },
+  {
+    "data": "quinta-feira, 27 de março",
+    "horario": "18:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup Ipe Village – Network Estates e o futuro da sociedade",
+    "local": "Hub Primavera - Saco Grande - Florianópolis",
+    "descricao": "Network Estates - O futuro da sociedade: O que são Pop-up Cities e como você pode impactar com tecnologia?",
+    "tags": [
+      "Artificial Intelligence",
+      "Blockchain",
+      "Internet of Things (IoT)",
+      "Startups",
+      "Venture Capital"
+    ]
+  },
+  {
+    "data": "quinta-feira, 27 de março",
+    "horario": "18:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Workshop: Construindo aplicações de IA generativa com Amazon Bedrock",
+    "local": "Faial Prime Suites - Centro - Florianópolis",
+    "descricao": "O workshop terá como tema a construção de aplicações de IA Generativa com o Amazon Bedrock",
+    "tags": [
+      "Artificial Intelligence",
+      "Cloud Computing",
+      "Machine Learning",
+      "Serverless Computing"
+    ]
+  },
+  {
+    "data": "sábado, 22 de março",
+    "horario": "14:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "#29 FloripaJS • Especial IA",
+    "local": "Neoway - Itacorubi - Florianópolis",
+    "descricao": "O FloripaJS Especial IA 2025 será um encontro descontraído e interativo na sede da Neoway, com discussões sobre o State of AI 2025, Hack n' Tell, painel sobre uso de IA, além de coffee, chopp e camisetas exclusivas – tudo no melhor espírito da comunidade! 🚀✨",
+    "tags": [
+      "Artificial Intelligence",
+      "Frontend Development",
+      "Open Source",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 20 de março",
+    "horario": "19:30",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Meetup WordPress Floripa",
+    "local": "Hostgator - Trindade - Florianópolis",
+    "descricao": "O Meetup WordPress Floripa está de volta no dia 20/03, na sede da Hostgator, com talks sobre configuração rápida do WordPress, segurança contra plugins vulneráveis e uma dinâmica interativa para trocar experiências – tudo 100% gratuito e presencial! 🚀🔥",
+    "tags": [
+      "Cybersecurity",
+      "UX/UI Design",
+      "Web Development"
+    ]
+  },
+  {
+    "data": "quinta-feira, 20 de março",
+    "horario": "08:00",
+    "formato": "Presencial",
+    "preco": "R$ 949,00",
+    "titulo": "Data World Xperience 25",
+    "local": "CentroSul - Centro - Florianópolis",
+    "descricao": "Este evento inovador não apenas explora as últimas tendências tecnológicas, mas também estabelece um diálogo estratégico sobre como os dados podem impulsionar o sucesso organizacional e orientar decisões assertivas.",
+    "tags": [
+      "Big Data",
+      "Data Engineering",
+      "Data Science",
+      "Data Visualization"
+    ]
+  },
+  {
+    "data": "sábado, 15 de março",
+    "horario": "14:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "PyLadies Floripa",
+    "local": "InPETU hub - Parque Sapiens - Canasvieiras - Florianópolis",
+    "descricao": "Vamos juntas fazer mais um ano próspero e de oportunidades no mundo da tecnologia!",
+    "tags": []
   }
 ]
