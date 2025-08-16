@@ -1,20 +1,5 @@
 [
   {
-    "data": "sexta-feira, 15 de agosto",
-    "horario": "18:00",
-    "formato": "Presencial",
-    "preco": "Gratuito",
-    "titulo": "Osint & Cachaça",
-    "local": "Balburdia - Centro - Florianópolis",
-    "descricao": "Para a galera fã de OSINT do Brasil, de Investigação Digital, mais um encontro, afinal Osint é uma cachaça!",
-    "tags": [
-      "Artificial Intelligence",
-      "Cybersecurity",
-      "Internet of Things (IoT)",
-      "Open Source"
-    ]
-  },
-  {
     "data": "sábado, 16 de agosto",
     "horario": "09:00",
     "formato": "Presencial",
@@ -90,6 +75,16 @@
     ]
   },
   {
+    "data": "sexta-feira, 22 de agosto",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "5º MeetUp Pyladies Floripa",
+    "local": "Auditório João Ernesto Castro - CTC/UFSC - Trindade - Florianópolis",
+    "descricao": "Comunidade mundial de apoio e incentivo a mulheres na tecnologia. Você não está sozinha! 🤍👩‍💻",
+    "tags": []
+  },
+  {
     "data": "quarta-feira, 27 de agosto",
     "horario": "13:00",
     "formato": "Presencial",
@@ -125,7 +120,7 @@
     "data": "sábado, 20 de setembro",
     "horario": "08:00",
     "formato": "Presencial",
-    "preco": "Esgotado",
+    "preco": "Gratuito",
     "titulo": "Code Island Cloud 2025",
     "local": "UniCesusc - Santo Antônio de Lisboa - Florianópolis",
     "descricao": "O evento de Cloud que iremos promover é destinado ao público exigente e interessado em ficar atualizado com as últimas novidades tecnológicas relacionadas ao mundo Cloud.",
@@ -135,6 +130,22 @@
       "Cloud Computing",
       "DevOps",
       "Startups"
+    ]
+  },
+  {
+    "data": "quarta-feira, 24 de setembro",
+    "horario": "19:00",
+    "formato": "Presencial",
+    "preco": "Esgotado",
+    "titulo": "Mdp Curta Floripa – Mulheres de Produto",
+    "local": "Zoho - Saco Grande - Florianópolis",
+    "descricao": "Mdp Curtas Floripa - evento de mulheres para mulheres",
+    "tags": [
+      "Agile Methodologies",
+      "Artificial Intelligence",
+      "Mobile Development",
+      "Product Management",
+      "Web Development"
     ]
   },
   {
@@ -167,6 +178,21 @@
       "Data Engineering",
       "Data Science",
       "Data Visualization"
+    ]
+  },
+  {
+    "data": "sexta-feira, 15 de agosto",
+    "horario": "18:00",
+    "formato": "Presencial",
+    "preco": "Gratuito",
+    "titulo": "Osint & Cachaça",
+    "local": "Balburdia - Centro - Florianópolis",
+    "descricao": "Para a galera fã de OSINT do Brasil, de Investigação Digital, mais um encontro, afinal Osint é uma cachaça!",
+    "tags": [
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Internet of Things (IoT)",
+      "Open Source"
     ]
   },
   {
